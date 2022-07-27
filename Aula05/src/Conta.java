@@ -5,18 +5,24 @@ public class Conta {
     private float saldo;
     private boolean status;
     
+    public void estadoAtual(){
+        System.out.println("Tipo da Conta: " + this.getTipo());
+        System.out.println("Dono: " + this.getDono());
+        System.out.println("Saldo: " + this.getSaldo());
+        System.out.println("Status: " + this.getStatus());
+    }
 
-    public Conta (float s, boolean x) {
-        this.setSaldo(s);
-        this.setStatus(x);
+    public Conta () {
+        this.setSaldo(0);
+        this.setStatus(false);;
     }
 
     public int getNumConta() {
         return this.numConta;
     }
 
-    public void setNumConta(int n) {
-        this.numConta = n;
+    public void setNumConta(int numConta) {
+        this.numConta = numConta;
     }
 
     public String getTipo(){
