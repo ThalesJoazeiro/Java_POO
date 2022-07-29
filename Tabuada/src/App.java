@@ -4,6 +4,6 @@ public class App {
 
         c1.setValor(2);
         System.out.println("Tabuada do: " + c1.getValor());
-        c1.calcular();
+        c1.calcular(2);
     }
 }

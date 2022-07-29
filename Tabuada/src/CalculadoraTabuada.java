@@ -9,7 +9,7 @@ public class CalculadoraTabuada{
         this.valor = valor;
     }
 
-    public void calcular(){
+    public void calcular(int valor){
         setValor(valor);
         for (int i = 0; i <= 10; i++){
             System.out.println(i + " x " + this.getValor() + " = ");
