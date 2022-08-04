@@ -22,23 +22,33 @@ public class Lutador{
     }
 
     public void Apresentar(){
-
+        System.out.println("LUTADOR");
+        System.out.println("Nome: " + this.getNome());
+        System.out.println("Origem: " + this.getNacionalidade());
+        System.out.println("Data de nascimento: " + (2022 - this.getIdade()));
+        System.out.println(this.getPeso() + " KGs");
+        System.out.println("Vitórias: " + this.getVitorias());
+        System.out.println("Derrotas: " + this.getDerrotas());
+        System.out.println("Empates: " + this.getEmpates());
     }
 
     public void Status(){
-
+        System.out.println("");
+        System.out.println(this.getNome());
+        System.out.println("E um lutador da categoria " + this.getCategoria() + ".");
+        System.out.println("Possuindo " + this.getVitorias() + " vitorias, " + this.getDerrotas() + " derrotas e " + this.getEmpates() + " empates.");
     }
 
     public void ganharLuta(){
-
+        this.setVitorias(this.getVitorias() + 1);
     }
 
     public void perderLuta(){
-
+        this.setDerrotas(this.getDerrotas() + 1);
     }
 
     public void empatarLuta(){
-
+        this.setEmpates(this.getEmpates() + 1);
     }
 
     public String getNome(){
@@ -79,14 +89,30 @@ public class Lutador{
 
     public void setPeso(float pe){
         this.peso = pe;
-    }
+        this.setCategoria();
+        }
+    
 
     public String getCategoria(){
         return this.categoria;
     }
 
-    public void setCategoria(String categoria){
-        this.categoria = categoria;
+    private void setCategoria(){
+        if (this.peso < 52.2){
+            this.categoria = "Inválido";
+        }
+        else if (this.peso <= 70.3){
+            this.categoria = "Leve";
+        }
+        else if (this.peso <= 83.9){
+            this.categoria = "Médio";
+        }
+        else if (this.peso <= 120.2){
+            this.categoria = "Pesado";
+        }
+        else {
+            this.categoria = "Inválido";
+        }
     }
 
     public int getVitorias(){
