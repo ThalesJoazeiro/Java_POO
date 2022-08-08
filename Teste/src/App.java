@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        int[] numeros = new int[10];
+        int[] numeros = new int[11];
         numeros[0] = 10;
         numeros[1] = 15;
         numeros[2] = 12;
