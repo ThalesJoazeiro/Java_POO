@@ -27,7 +27,7 @@ public class Lutador{
         System.out.println("Origem: " + this.getNacionalidade());
         System.out.println("Data de nascimento: " + (2022 - this.getIdade()));
         System.out.println(this.getPeso() + " KGs");
-        System.out.println("Vitórias: " + this.getVitorias());
+        System.out.println("Vitorias: " + this.getVitorias());
         System.out.println("Derrotas: " + this.getDerrotas());
         System.out.println("Empates: " + this.getEmpates());
     }

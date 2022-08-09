@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        Lutador l[] = new Lutador[3];
+        Lutador l[] = new Lutador[4];
 
         l[0] = new Lutador("Pretty Boy", "França", 31, 1.75f, 68.9f, 11, 2, 1);
 
@@ -18,5 +18,10 @@ public class App {
         l[3] = new Lutador("Arnaldo", "Irlanda do Norte", 28, 1.80f, 100.5f, 0, 10, 0);
 
         l[3].Status();
+
+        Luta luta1 = new Luta();
+
+        luta1.marcarLuta(l[0], l[1]);
+        luta1.lutar();
     }
 }
