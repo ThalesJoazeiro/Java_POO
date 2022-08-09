@@ -17,5 +17,10 @@ public class App {
         l[3] = new Lutador("Arnaldo", "Irlanda do Norte", 28, 1.80f, 100.5f, 0, 10, 0);
 
         l[3].Status();
+
+        Luta luta1 = new Luta();
+
+        luta1.marcarLuta(l[0], l[1]);
+        luta1.lutar();
     }
 }
