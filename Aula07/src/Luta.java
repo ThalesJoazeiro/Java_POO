@@ -40,13 +40,13 @@ public class Luta {
                 break;
                 case 1:
                 System.out.println("");
-                System.out.println("Desafiado ganhou!");
+                System.out.println("Desafiado ganhou! " + desafiado.getNome());
                 desafiado.ganharLuta();
                 desafiante.perderLuta();
                 break;
                 case 2: 
                 System.out.println("");
-                System.out.println("Desafiante ganhou!");
+                System.out.println("Desafiante ganhou! " + desafiante.getNome());
                 desafiado.perderLuta();
                 desafiante.ganharLuta();
                 break;
