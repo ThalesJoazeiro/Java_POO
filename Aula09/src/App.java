@@ -9,6 +9,7 @@ public class App {
         Livro l1 = new Livro("Seila", "Joazeiro", 200, p1);
         
         l1.abrir();
+        l1.folhear();
         l1.detalhes();
     }
 }

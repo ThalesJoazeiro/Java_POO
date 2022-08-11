@@ -44,7 +44,7 @@ public class Livro implements Publicacao{
             Random pagaleatoria = new Random();
             int pag =  pagaleatoria.nextInt(250) + 1;
             setPagAtual(pag);
-            System.out.println("Chegamos à página " + getPagAtual() + ".");
+            System.out.println("Chegamos a pagina " + getPagAtual() + ".");
         }
         else {
             System.out.println("Abra o livro antes de prosseguir!");
