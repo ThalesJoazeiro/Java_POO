@@ -1,5 +1,5 @@
 public class Mamifero extends Animal{
-    
+
     private String corPelo;
 
     public Mamifero(String corPelo){
@@ -21,7 +21,7 @@ public class Mamifero extends Animal{
 
     @Override
     public void alimentar(){
-        System.out.println("Comendo ração.");
+        System.out.println("Bebendo leite.");
     }
 
     @Override
