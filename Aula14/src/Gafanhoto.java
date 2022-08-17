@@ -33,6 +33,6 @@ public class Gafanhoto extends Pessoa {
 
     @Override
     public String toString(){
-        return "Gafanhoto - " + super.toString() + " Login: " + login;
+        return super.toString() + " Login: " + login;
     }
 }
