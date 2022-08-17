@@ -52,6 +52,6 @@ public class Visualizacao {
     }
 
     public String toString(){
-        return "Espectador - " + espectador + " Filme: " + filme.getTitulo();
+        return "Espectador - " + espectador + " Filme: " + filme.getTitulo() + " Avaliacao: " + filme.getAvaliacao();
     }
 }
