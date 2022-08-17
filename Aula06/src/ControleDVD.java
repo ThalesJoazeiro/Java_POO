@@ -58,7 +58,7 @@ public class ControleDVD implements Controlador {
         }
         }
         else{
-            System.out.println("Aparelho desligado.");
+            System.out.println("Aparelho desligado!");
         }
     }
 
