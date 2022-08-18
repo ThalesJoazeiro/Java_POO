@@ -9,5 +9,8 @@ public class App {
             System.out.println(c[i].toString());
          }
 
-    }
+         for(Conta result: c){
+            System.out.println(result.toString());
+         }
+    } 
 }
