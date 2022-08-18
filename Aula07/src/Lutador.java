@@ -99,7 +99,7 @@ public class Lutador{
 
     private void setCategoria(){
         if (this.peso < 52.2){
-            this.categoria = "Inválido";
+            this.categoria = "Invalido";
         }
         else if (this.peso <= 70.3){
             this.categoria = "Leve";
@@ -111,7 +111,7 @@ public class Lutador{
             this.categoria = "Pesado";
         }
         else {
-            this.categoria = "Inválido";
+            this.categoria = "Invalido";
         }
     }
 

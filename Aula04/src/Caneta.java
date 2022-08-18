@@ -44,7 +44,7 @@ public class Caneta {
     }
 
     public void status(){
-        System.out.println("Sobre a caneta:");
+        System.out.println("Sobre a caneta: ");
         System.out.println("Modelo: " + this.getModelo());
         System.out.println("Ponta: " + this.getPonta());
         System.out.println("Cor: " + this.cor);

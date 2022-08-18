@@ -15,7 +15,7 @@ public class Caneta {
 
     public void rabiscar() {
         if (this.tampada == true) {
-            System.out.printf("ERRO! A caneta de cor %s e que possui carga %d está tampada! \n", this.cor, this.carga);
+            System.out.printf("ERRO! A caneta de cor %s e que possui carga %d está tampada. \n", this.cor, this.carga);
         }
         else {
             System.out.printf("Show, pode escrever!. \n", this.cor, this.carga);
